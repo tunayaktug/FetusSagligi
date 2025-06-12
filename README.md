@@ -1,31 +1,31 @@
 # FetusSagligi
-Fetüs sağlığını tahmin etmeye yönelik; Random Forest ve LSTM algoritmalarıyla desteklenen, veri birleştirme ve analiz süreçlerini içeren bir makine öğrenmesi projesi.
+A machine learning project aimed at predicting fetal health, supported by Random Forest and LSTM algorithms, involving data merging and analytical processes.
 
 
-Fetüs Sağlığı Tahmini Projesi
+# 🧠 Fetal Health Prediction Using Machine Learning & Deep Learning
+
+## 📌 Overview
+This project focuses on predicting fetal health status using a combination of **machine learning** and **deep learning** models. The primary objective is to classify fetal conditions as Normal, Suspect, or Pathological using a comprehensive dataset formed by merging two different sources. The system leverages both **Random Forest** and **LSTM** models to capture non-linear patterns and temporal trends in the data.
+
+## 🧪 Technologies Used
+- 🧹 **Preprocessing**: Null value handling, normalization, label encoding
+- 📊 **Data**: `fetal_health.csv`, `train_dataset.csv`, combined into `merged_dataset.csv`
+- 🤖 **Models**:
+  - **Random Forest Classifier**: For baseline traditional classification
+  - **LSTM Neural Network**: For temporal pattern recognition
+- 📉 **Evaluation Metrics**: Accuracy, Confusion Matrix, ROC-AUC, F1-Score
+
+## 📂 File Structure
+├── fetal_health.csv # Original dataset 1
+├── train_dataset.csv # Original dataset 2
+├── merged_dataset.csv # Final merged dataset
+├── FetüsSağlığıVeriAnalizi.ipynb # Full analysis & model notebook
+├── README.txt # Contributor info
 
 
-Proje Hakkında
+## 📈 Key Features
+- Dataset merging and cleaning pipeline
+- Comparative model analysis (Random Forest vs LSTM)
+- Visual analytics (e.g., correlation heatmaps, ROC curves)
+- Model tuning and performance logging
 
-Bu projede, fetal sağlık durumunu sınıflandırmak ve analiz etmek amacıyla makine öğrenmesi ve derin öğrenme modelleri kullanılmıştır. İki farklı veri seti birleştirilerek daha kapsamlı bir merged_dataset oluşturulmuş ve bu veri üzerinde kapsamlı analizler yapılmıştır. Modelleme aşamasında Random Forest ve LSTM (Long Short-Term Memory) algoritmaları kullanılmıştır.
-
-Kullanılan Yöntemler ve Araçlar
-Veri Ön İşleme: Eksik değer temizleme, ölçekleme, görselleştirme
-
-Veri Seti: fetal_health.csv, train_dataset.csv + merged_dataset.csv
-
-Modeller:
-
-Random Forest Classifier – geleneksel makine öğrenmesi yöntemi
-
-LSTM – zaman serisi tabanlı derin öğrenme modeli
-
-Değerlendirme Metriği: Doğruluk (Accuracy), Karışıklık Matrisi, ROC Eğrileri, vb.
-
-Dosya Yapısı : 
-├── fetal_health.csv               # Orijinal veri setlerinden biri
-├── train_dataset.csv             # Diğer veri seti
-├── merged_dataset.csv            # İki veri setinin birleştirilmiş hali
-├── FetüsSağlığıVeriAnalizi.ipynb # Tüm analiz, modelleme ve grafikler
-├── README.md                     # 
-                 # 
