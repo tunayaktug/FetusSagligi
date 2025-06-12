@@ -3,7 +3,10 @@ Fetüs sağlığını tahmin etmeye yönelik; Random Forest ve LSTM algoritmalar
 
 
 Fetüs Sağlığı Tahmini Projesi
+
+
 📌 Proje Hakkında
+
 Bu projede, fetal sağlık durumunu sınıflandırmak ve analiz etmek amacıyla makine öğrenmesi ve derin öğrenme modelleri kullanılmıştır. İki farklı veri seti birleştirilerek daha kapsamlı bir merged_dataset oluşturulmuş ve bu veri üzerinde kapsamlı analizler yapılmıştır. Modelleme aşamasında Random Forest ve LSTM (Long Short-Term Memory) algoritmaları kullanılmıştır.
 
 🧪 Kullanılan Yöntemler ve Araçlar
