@@ -19,12 +19,10 @@ LSTM – zaman serisi tabanlı derin öğrenme modeli
 
 📈 Değerlendirme Metriği: Doğruluk (Accuracy), Karışıklık Matrisi, ROC Eğrileri, vb.
 
-📂 Dosya Yapısı
-text
-Kopyala
-Düzenle
+Dosya Yapısı : 
 ├── fetal_health.csv               # Orijinal veri setlerinden biri
 ├── train_dataset.csv             # Diğer veri seti
 ├── merged_dataset.csv            # İki veri setinin birleştirilmiş hali
 ├── FetüsSağlığıVeriAnalizi.ipynb # Tüm analiz, modelleme ve grafikler
 ├── README.md                     # 
+                 # 
